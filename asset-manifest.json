@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/S-1408/BhiveWorkspace/static/css/main.7591df85.css",
+    "main.js": "/S-1408/BhiveWorkspace/static/js/main.c087b214.js",
+    "static/js/453.3d1f627b.chunk.js": "/S-1408/BhiveWorkspace/static/js/453.3d1f627b.chunk.js",
+    "index.html": "/S-1408/BhiveWorkspace/index.html",
+    "main.7591df85.css.map": "/S-1408/BhiveWorkspace/static/css/main.7591df85.css.map",
+    "main.c087b214.js.map": "/S-1408/BhiveWorkspace/static/js/main.c087b214.js.map",
+    "453.3d1f627b.chunk.js.map": "/S-1408/BhiveWorkspace/static/js/453.3d1f627b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7591df85.css",
+    "static/js/main.c087b214.js"
+  ]
+}
