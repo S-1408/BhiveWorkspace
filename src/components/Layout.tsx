@@ -66,7 +66,7 @@ export const HeaderLayout = () => {
   {/* Video Section */}
   <div className="relative md:w-[388px] lg:w-[550px]  md:h-[388px] lg:h-[550px] rounded-lg overflow-hidden">
     <video
-      src="/media/Coworking-video.mp4"
+      src={publicUrl("/media/Coworking-video.mp4")}
       className="w-full h-full object-cover"
       autoPlay
       loop
