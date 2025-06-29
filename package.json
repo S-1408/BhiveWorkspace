@@ -2,7 +2,7 @@
   "name": "bhive",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/S-1408/BhiveWorkspace",
+  "homepage": "https://S-1408.github.io/BhiveWorkspace",
   "dependencies": {
     "@rematch/core": "^2.2.0",
     "@testing-library/dom": "^10.4.0",
