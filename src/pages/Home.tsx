@@ -19,7 +19,7 @@ const Home: React.FC = () => {
     <div>
       <HeaderLayout />
       <Facilities />
-      <div className="px-20 flex justify-center flex-col mb-10">
+      <div className=" md:px-20 py-10 flex justify-center flex-col mb-10">
         <p className="text-4xl font-700 mb-4 ">Our Space Overview</p>
         <div className="flex flex-wrap gap-4 ">
           {Array.isArray(spaces) &&
