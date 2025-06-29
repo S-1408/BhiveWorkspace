@@ -1,4 +1,5 @@
 import { IndianRupee, ChevronsRight } from "lucide-react";
+import { publicUrl } from "../utils/publicUrl";
 
 interface SpaceItem {
   name: string;
@@ -27,7 +28,7 @@ const SpaceCard: React.FC<SpaceCardProps> = ({ item }) => {
         <div className="text-sm text-gray-700 font-medium">
           <div className="flex flex-col items-center justify-center border p-2 text-center bg-[ #EEE7E7] border-[0.47px] rounded-md w-[52px] h-[52px]">
             <img
-              src={"/media/assistant_direction.png"}
+              src={publicUrl("/media/assistant_direction.png")}
               className="w-[18px] h-[18px] "
             />
             <h6 className="text-xs">6km</h6>
@@ -42,7 +43,7 @@ const SpaceCard: React.FC<SpaceCardProps> = ({ item }) => {
           return (
             <img
               key={imgIdx}
-              src={`/media/${filename}`}
+              src={`${process.env.PUBLIC_URL}/media/${filename}`}
               alt={`Image ${imgIdx}`}
               className="w-[346px] h-[202px] object-cover shadow-md rounded-md"
             />

@@ -1,3 +1,5 @@
+import { publicUrl } from "../utils/publicUrl"
+
 export const BottomLayout =()=>{
     return (
         <div>
@@ -13,7 +15,7 @@ export const BottomLayout =()=>{
     {/* Image Wrapper - fixed size and bottom aligned */}
     <div className="w-full md:w-[240px] flex justify-center md:justify-start relative z-10">
       <img
-        src="/media/group1.png"
+        src={publicUrl("/media/group1.png")}
         alt="Group"
         className="w-[180px] md:w-[220px] lg:w-[260px] object-contain 
                    md:absolute md:bottom-0 md:translate-y-[30%] 
@@ -30,12 +32,12 @@ export const BottomLayout =()=>{
 
       <div className="flex flex-col sm:flex-row gap-3 justify-center md:justify-end">
         <img
-          src="/media/googlestore.png"
+          src={publicUrl("/media/googlestore.png")}
           alt="Google Play"
           className="w-[130px] md:w-[146px] h-[40px] object-contain"
         />
         <img
-          src="/media/appstore.png"
+          src={publicUrl("/media/appstore.png")}
           alt="App Store"
           className="w-[130px] md:w-[146px] h-[40px] object-contain"
         />
@@ -53,7 +55,7 @@ export const HeaderLayout = () => {
      <div className="flex flex-col lg:flex-row items-center sm:px-6 lg:px-8 py-8 gap-8">
   {/* Image Section */}
   <div className="relative w-full max-w-7xl aspect-[929/754]">
-    <img src="/media/bg-img.png" alt="Background" className="w-full h-full object-cover" />
+    <img src={publicUrl("/media/bg-img.png")} alt="Background" className="w-full h-full object-cover" />
     <div className="absolute inset-0 flex items-center justify-center">
       <p className="font-bold text-center sm:text-xl md:text-2xl lg:text-6xl sm:px-4">
         Host your meeting with world-class amenities. Starting at ₹199/-!

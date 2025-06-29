@@ -1,4 +1,5 @@
 import React from 'react'
+import { publicUrl } from '../utils/publicUrl'
 
 const Facilities = () => {
 
@@ -22,7 +23,7 @@ const Facilities = () => {
           <div key={fac.id } className=" flex items-center w-full sm:w-[48%] md:w-[31%] lg:w-[23%] p4 border-b border-r border-gray-100"
           >
      
-          <img src={fac.icon} alt=" " className="w-6 h-6 object-contain mr-3" />
+          <img src={publicUrl(fac.icon)} alt=" " className="w-6 h-6 object-contain mr-3" />
            <p className="p-4 font-inter ">{fac.event}</p>
           </div>
         ))
