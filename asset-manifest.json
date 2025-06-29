@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/BhiveWorkspace/static/css/main.7591df85.css",
-    "main.js": "/BhiveWorkspace/static/js/main.69681d96.js",
+    "main.js": "/BhiveWorkspace/static/js/main.eafb37d3.js",
     "static/js/453.3d1f627b.chunk.js": "/BhiveWorkspace/static/js/453.3d1f627b.chunk.js",
     "index.html": "/BhiveWorkspace/index.html",
     "main.7591df85.css.map": "/BhiveWorkspace/static/css/main.7591df85.css.map",
-    "main.69681d96.js.map": "/BhiveWorkspace/static/js/main.69681d96.js.map",
+    "main.eafb37d3.js.map": "/BhiveWorkspace/static/js/main.eafb37d3.js.map",
     "453.3d1f627b.chunk.js.map": "/BhiveWorkspace/static/js/453.3d1f627b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7591df85.css",
-    "static/js/main.69681d96.js"
+    "static/js/main.eafb37d3.js"
   ]
 }
